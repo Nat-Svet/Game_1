@@ -1,18 +1,21 @@
 html {
-    font-size: 10px;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
   }
-  
-  body {
-    font-family: "Stencil";
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+
+body {
+  font-family: "Stencil";
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+    }
+
   
   .header {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     background-image: url(https://i.postimg.cc/mDLv32fr/5280957784638219693-121.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -79,10 +82,9 @@ html {
   
   .main {
     width: 100%;
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0;
     padding-top: 10rem;
     padding-bottom: 10rem;
     background-color: #132225;
